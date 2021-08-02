@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <script src="https://kit.fontawesome.com/8a9be494f1.js" crossorigin="anonymous"></script>
+    <noscript>TURN ON JAVASCRIPT!!!!!!</noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="andznakan.css">
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+        </script>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Web Members</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="content">
+          <div class="logo">
+            <a href="#"><img src="saki.png" alt=""></a>
+          </div>
+          <ul class="menu-list" class="animate__animated wow animate__fadeIndUp">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="#">Գլխավոր</a></li>
+            <li><a href="arm.form/arm.form.html">Պատվիրել հիմա</a></li>
+            <li><a href="#sakik">Լեզուներ</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="banner"></div>
+      
+    
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+
+      <div class="loxum">
+        <div class="content animate__animated wow animate__fadeInUp">
+          <h2 class="text" data-text="Welcome To WebMembers">Welcome To WebMembers</h2>
+        </div>
+      </div>
+
+
+      <div class="j__body">
+        <div class="j__container">
+          <div class="j__card">
+            <div class="j__imgBx">
+              <img class="tryuk" src="startup.png" alt="">
+            </div>
+            <div class="j__content">
+              <div>
+                
+                <h3>Սկիզբ</h3>
+                <p class="drikxcho">Աշխատանքը սկսվում է ՝ օգտագործելով հարցում ուղարկելով<a id="dolar" href="form/form.html">հետադարձ կապին</a>։ Սկսելու համար լրացրեք տվյալների ներկայացման հայտը:</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="j__card">
+            <div class="j__imgBx">
+              <img class="tryuk" src="sketch.png" alt="">
+            </div>
+            <div class="j__content">
+              <div>
+                <h3>Դիզայն</h3>
+                <p class="drikxcho">Դիզայնը ստեղծվում է հաճախորդի հետ բազմաթիվ քննարկումներից հետո `մեկ պատուհանի կայքի ստեղծումն ապահովելու համար:</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="j__card">
+            <div class="j__imgBx">
+              <img class="tryuk" src="money.png" alt="">
+            </div>
+            <div class="j__content">
+              <div>
+                <h3>Գներ</h3>
+                <p class="drikxcho">Գինը կախված է կայքի տեսակից և դրա հետագա զարգացումից: Գները որոշվում են հաճախորդների հետ համառոտ քննարկմամբ:</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="j__card">
+            <div class="j__imgBx">
+              <img class="tryuk" src="data.png" alt="">
+            </div>
+            <div class="j__content">
+              <div>
+                <h3>Ժամանակաշրջան</h3>
+                <p class="drikxcho">Կայքերի ստեղծելու Ժամանակահատվածը կախված է կայքի տեսակից, կայքի էջերի քանակից ...</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   
+                            <!--Grid-->
+
+                            <div class="c__main" id="shampayn">
+                                <div class="c__container">
+                                    <div class="c__box">
+                                        <span class="c__span animate__animated wow animate__fadeInUp"></span>
+                                        <div class="c__content">
+                                            <h2 class="nikol c__h animate__animated wow animate__fadeInUp">Բիզնես կայք</h2>
+                                            <p class="c__p animate__animated wow animate__fadeInUp">Բիզնես կայքը, որպես կանոն, ծառայում է որպես տարածք ՝ ձեր ընկերության վերաբերյալ ընդհանուր տեղեկություններ տրամադրելու կամ էլեկտրոնային առևտրի ուղղակի հարթակ տրամադրելու համար:</p>
+                                            <a href="arm.form/arm.form.html" class="kikis c__a animate__animated wow animate__fadeInUp">Պատվիրել հիմա</a>
+                                        </div>
+                                    </div>
+                                    <div class="c__box">
+                                        <span class="c__span "></span>
+                                        <div class="c__content">
+                                            <h2 class="nikol c__h animate__animated wow animate__fadeInUp">Landing Կայք</h2>
+                                            <p class="c__p animate__animated wow animate__fadeInUp">Landing էջերը բլոգերների և խոշոր կորպորացիաների համար ցանկացած առցանց շուկայավարման ռազմավարության առանցքային մասն են:</p>
+                                            <a href="arm.form/arm.form.html" class="kikis c__a animate__animated wow animate__fadeInUp">Պատվիրել հիմա</a>
+                                        </div>
+                                    </div>
+                                    <div class="c__box">
+                                        <span class="c__span"></span>
+                                        <div class="c__content">
+                                            <h2 class="nikol c__h animate__animated wow animate__fadeInUp">Լրատվական կայք</h2>
+                                            <p class="c__p animate__animated wow animate__fadeInUp">Լրատվական կայքերը նվիրված են լուրերը հեռուստատեսության, տպագիր կամ ռադիոյի այլ ձևաչափով հաղորդելուն: Լրատվական կայքերը ներառում են տեղեկատվության մեծ բազմազանություն ունեցող կայքեր, որոնք կարող են բոլոր լսարանի կողմից «նորություն» չհամարվել:</p>
+                                            <a href="arm.form/arm.form.html" class="kikis c__a animate__animated wow animate__fadeInUp">Պատվիրել հիմա</a>
+                                        </div>
+                                    </div>
+                                    <div class="c__box">
+                                        <span class="c__span"></span>
+                                        <div class="c__content">
+                                            <h2 class="nikol c__h animate__animated wow animate__fadeInUp">Առցանց շուկայի կայք</h2>
+                                            <p class="c__p animate__animated wow animate__fadeInUp">Առցանց շուկան էլեկտրոնային առևտրի կայք է, որը վաճառողներին կապում է գնորդների հետ: Այն հաճախ հայտնի է որպես էլեկտրոնային շուկա, և բոլոր գործարքները ղեկավարում է կայքի սեփականատերը:</p>
+                                            <a href="arm.form/arm.form.html" class="kikis c__a animate__animated wow animate__fadeInUp">Պատվիրել հիմա</a>
+                                        </div>
+                                    </div>
+                                    <div class="c__box">
+                                        <span class="c__span"></span>
+                                        <div class="c__content">
+                                            <h2 class="nikol c__h animate__animated wow animate__fadeInUp">Սեփական կայք</h2>
+                                            <p class="c__p animate__animated wow animate__fadeInUp">Անհատական կայքը հարմար է լուսանկարիչների, դիզայներների, անհատների և հայտնի մարդկանց համար:</p>
+                                            <a href="arm.form/arm.form.html" class="kikis c__a animate__animated wow animate__fadeInUp">Պատվիրել հիմա</a>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+    <div class="footerchik">
+		<footer>
+			<div class="containerb">
+				<div class="sec aboutus">
+					<h2 class="animate__animated wow animate__fadeInUp">Մեր մասին</h2>
+					<p class="animate__animated wow animate__fadeInUp">Մենք ծրագրավորողների խումբ ենք, ովքեր 2 տարի զբաղվում են վեբ մշակմամբ: Մենք ստեղծում ենք տարբեր տեսակի կայքեր: էժան գներ !!! Բոլոր հարցերի համար դիմել</p> <div class="animate__animated wow animate__fadeInUp homie"><a class="service" href="mailto:contact.web.members@mail.ru">աջակցության ծառայություն</a></div>
+				<ul class="sci animate__animated wow animate__fadeInUp">
+					<li><a href="https://www.instagram.com/web_members_official/"><i class="fa fa-instagram animate__animated wow animate__fadeInUp" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.facebook.com/Web-Members-112088604472688/?ref=pages_you_manage"><i class="fa fa-facebook animate__animated wow animate__fadeInUp" aria-hidden="true"></i></a></li>
+					<li><a href="mailto:contact.web.members@mail.ru"><i class="fa fa-envelope animate__animated wow animate__fadeInUp" aria-hidden="true"></i></a></li>
+				</ul>
+				</div>
+				<div class="sec quickLinks animate__animated wow animate__fadeInUp">
+					<h2>Quick Links</h2>
+					<ul>
+						<li><a href="arm.form/arm.form.html" class="animate__animated wow animate__fadeInUp">Պատվիրել</a></li>
+						<li><a href="mailto:contact.web.members@mail.ru" class="animate__animated wow animate__fadeInUp">Կապ</a></li>
+					</ul>
+				</div>
+				<div class="sec contact">
+					<h2 class="animate__animated wow animate__fadeInUp">Կոնտակտային տվյալները</h2>
+					<ul class="inform" class="animate__animated wow animate__fadeInUp">
+						<li>
+							<span><i class="fa fa-map-marker animate__animated wow animate__fadeInUp" aria-hidden="true"></i></span>
+							<span class="animate__animated wow animate__fadeInUp">Երեւան Նոր Նորքի երկրորդ զանգված</span>
+							
+						</li>
+						<li>
+							<span><i class="fa fa-phone animate__animated wow animate__fadeInUp" aria-hidden="true"></i></span>
+							<a href="tel:37491557772" class="animate__animated wow animate__fadeInUp">+37491557772</a>
+							
+							
+						</li>
+						<li>
+							<span><i class="fa fa-envelope animate__animated wow animate__fadeInUp" aria-hidden="true"></i></span>
+							<a href="mailto:contact.web.members@mail.ru" class="animate__animated wow animate__fadeInUp">Կապնվել էլեկրոնային հասցեով</a>
+                        
+							
+						</li>
+					</ul>
+				</div>
+			</div>
+            <div class="flags">
+                <a href="arm.andznakan.html"><img class="animate__animated wow animate__fadeInUp" style="width: 50px; height: 35px;" src="arm.png" alt="fsdfdsf"></a>
+                <a href="rus.andznakan.html"><img class="animate__animated wow animate__fadeInUp" style="width: 50px; height: 37px;" src="https://www.4x4akceccyap.ru/Templates/Default/Images/flags/ru.png" alt="Flag"></a>
+                <a id="sakik" href="index.html"><img class="animate__animated wow animate__fadeInUp" style="width: 39px; height: 39px;" src="https://img.icons8.com/color/452/usa-circular.png" alt="fsdfdsf"></a>
+            </div>
+		</footer>
+		<div class="copyrightText">
+			<p class="animate__animated wow animate__fadeInUp">&copy 2021 Webmembers. Բոլոր իրավունքները պաշտպանված են</p>
+		</div>
+	</div>
+          
+    <script>
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('l__navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+    <script type="text/javascript">
+        var iconBx = document.querySelectorAll('.iconBx');
+        var iconBx = document.querySelectorAll('.contentBx');
+
+        for (var i=0; i<iconBx.lenght; i++){
+            iconBx[i].addEventListener('mouseover', function(){
+            for (var i=0; i<contentBx.lenght; i++){
+                contentBx[i].className='contentBx';
+            }
+            document.getElementById(this.dataset.id).className="contentBx aktiv";
+            for (var i=0; i<iconBx.lenght; i++){
+                iconBx[i].className='iconBx';
+            }
+            this.className= 'iconBx aktiv';
+            })
+        }
+    </script>
+</body>
+</html>
