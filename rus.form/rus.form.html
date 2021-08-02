@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rus.form.css">
+    <script src="rus.form.js"></script>
+    <title>Обратная Связь</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <form action="https://formspree.io/f/myyldqpq" method="POST" id="my-form">
+
+                <div class="form-group">
+                    <label for="firstName"> Имя</label>
+                    <input type="text" id="firstName" name="firstName"> 
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName"> Фамилия</label>
+                    <input type="text" id="lastName" name="lastName"> 
+                </div>
+
+                <div class="form-group">
+                    <label for="email"> Электронное письмо</label>
+                    <input type="email" id="email" name="email"> 
+                </div>
+
+                <div class="form-group">
+                    <label for="massage"> Сообщение</label>
+                    <textarea name="massage" id="massage" cols="30" rows="10" requiredS></textarea> 
+                </div>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+        <div id="status"></div>
+    </section>
+</body>
+</html>
