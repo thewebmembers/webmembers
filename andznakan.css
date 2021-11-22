@@ -1254,9 +1254,15 @@ body{
         {
             width: 100%;
             background: #181818;
-            padding: 8px 100px;
+            height: 60px;
             text-align: center;
             color: #999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .copyrightText p{
+            margin-bottom: 0 !important;    
         }
         .redre{
             width: 30px;
