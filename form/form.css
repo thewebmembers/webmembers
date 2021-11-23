@@ -51,6 +51,7 @@ button[type="submit"]{
     font-family: 'Montserrat';
     color: rgb( 27, 166, 247);
     text-align: center;
+    background: aliceblue;
     cursor: pointer;
     margin-top: 10px;
     transition: .3s ease background-color;
