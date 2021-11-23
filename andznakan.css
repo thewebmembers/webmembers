@@ -1228,6 +1228,7 @@ body{
         {
             display: flex;
             margin-bottom: 16px;
+            align-items: center;
         }
         .contact .inform li span:nth-child(1)
         {
